@@ -1,0 +1,23 @@
+{
+  "name": "schema",
+  "version": "1.0.0",
+  "description": "object convert and validate schema",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "DEBUG=test* mocha test "
+  },
+  "keywords": [
+    "validate"
+  ],
+  "author": "rancho",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-register": "^6.7.2",
+    "debug": "^2.2.0",
+    "mocha": "^2.4.5"
+  }
+}
